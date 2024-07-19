@@ -1,0 +1,37 @@
+----------------------MOST COMMON COMMANDS----------------------
+
+cd            => Change directory
+pwd           => get full path of current directory
+ls            => list current directory's all files and directories
+ll            => list current directory's all files and directories with permissions
+touch         => creates a file (E.g: touch filename.extension)
+mkdir         => creates an empty directory (E.g: mkdir directoryname)
+mv            => move or rename files (E.g:  /path/current_file   /path/move_to_path)
+cp            => copy a file (E.g: /path/to_be_copied   /path)
+rm            => remove a file or directory (only empty directory can be remove)
+rm -fr        => force remove directory
+top/htop      => list the active processes and memory usage
+clear         => clear all command history
+whoami        => get user name
+chmod         => give permission to files or directories
+chown         => give the ownership to specific user
+ifconfig      => list the wlan,ehternet and other ips
+whatis        => to find the use of command
+vi/vim        => to edit the files
+view          => to open a file in readonly mode
+
+
+
+----------------------SERVICES COMMANDS----------------------
+
+systemctl restart (servicename)
+systemctl start (servicename)
+systemctl enable (servicename)
+systemctl disable (servicename)
+systemctl stop (servicename)
+systemctl status (servicename)
+
+----------------------OTHER COMMANDS----------------------
+
+apachectl configtest => to check apache config file is valid or not
+dpkg -i file.dpkg => to install dpkg file (4 DEBIAN BASED ONLY)
